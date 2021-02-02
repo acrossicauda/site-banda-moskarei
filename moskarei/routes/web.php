@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::post('send_mail', function () {
+    return 'Mensagem enviada!';
+});
+
 
 /**
  * Manutenção
