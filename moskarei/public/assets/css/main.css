@@ -25,6 +25,8 @@ Version: 1.0
 17. Single Blog Page CSS
 ***********************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 /* Base CSS */
 * {
     margin: 0;
@@ -127,7 +129,7 @@ p {
 }
 
 .banner-section {
-    background: url(../img/banner.jpg);
+    background: url(../uploads/imgs/banner.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -315,10 +317,10 @@ nav.mobileMenu ul li a:hover {
     z-index: -1;
 }
 .home-slide-1 {
-    background-image: url('../img/slider-1.jpeg');
+    background-image: url('../uploads/imgs/slider-3.jpeg');
 }
 .home-slide-2 {
-    background-image: url('../img/slider-2.jpg');
+    background-image: url('../uploads/imgs/slider-4.jpeg');
 }
 .home-slide-caption {
     color: #FFF;
@@ -336,7 +338,7 @@ nav.mobileMenu ul li a:hover {
 /* Latest Album CSS */
 .latest-album-thumb {
     overflow: hidden;
-    background-image: url( '../img/latest-album.jpeg' );
+    background-image: url( '../uploads/imgs/latest-album.jpeg' );
     background-size: cover;
     background-position: center center;
 }
@@ -537,9 +539,13 @@ nav.mobileMenu ul li a:hover {
     color: #ea5252;
 }
 
+rock-salt {
+    font-family: 'Rock Salt', cursive !important;
+}
+
 /* Contact Section CSS */
 .contact-section {
-    background: url(../img/contact.jpeg);
+    background: url(../uploads/imgs/contact.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
